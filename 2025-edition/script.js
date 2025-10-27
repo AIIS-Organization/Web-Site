@@ -1,9 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
-    if (document.location.pathname.endsWith("previous-edition/")) {
     const slideshowImages = [
         "images/previous_speakers/pictures/luca.jpg",
         "images/previous_speakers/pictures/contest.jpg",
-        "images/previous_speakers/pictures/costea.JPG",
+        "images/previous_speakers/pictures/costea.jpg",
         "images/previous_speakers/pictures/crowd.jpg",
         "images/previous_speakers/pictures/jiawen.jpg",
         "images/previous_speakers/pictures/barbalau.jpg",
@@ -34,5 +33,4 @@ document.addEventListener("DOMContentLoaded", function () {
         changeSlideshowImage();
         // Start the slideshow, changing the image every 3 seconds
         setInterval(changeSlideshowImage, 3000);
-    }
 });

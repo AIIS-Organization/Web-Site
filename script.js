@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const loadingScreen = document.getElementById("loading-screen");
     let randomTime;
-    if (document.location.pathname.endsWith("previous-edition/")) {
+    if (document.location.pathname.endsWith("2024-edition/" || "2025-edition/" || "venue/")) {
         randomTime = Math.random() * 500 + 1000;
     } else {
         randomTime = Math.random() * 500 + 500;

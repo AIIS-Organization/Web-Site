@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-    if (document.location.pathname.endsWith("previous-edition/")) {
     const slideshowImages = [
         "images/previous_speakers/pictures/previous_edition_1.jpg",
         "images/previous_speakers/pictures/previous_edition_2.jpg",
@@ -32,5 +31,4 @@ document.addEventListener("DOMContentLoaded", function () {
         changeSlideshowImage();
         // Start the slideshow, changing the image every 3 seconds
         setInterval(changeSlideshowImage, 3000);
-    }
 });

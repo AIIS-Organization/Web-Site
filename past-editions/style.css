@@ -1,0 +1,178 @@
+/* Main Content */
+#index_logo {
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+#main_body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+
+#main_text {
+    color: white;
+    text-align: center;
+    position: absolute;
+}
+
+#main_text h1 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: min(22vh, 22vw);
+    margin-top: min(12vw, 12vh);
+}
+
+/* Pages */
+.pages {
+    width: min(20vh, 20vw);
+    height: min(20vh, 20vw);
+    background-image: url('images/cloud.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center max(-2.8vh, -2.8vw);
+    text-align: center;
+    padding: min(2vh, 2vw);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.pages:hover {
+    cursor: pointer;
+}
+
+.pages-text {
+    margin: auto;
+    color: black;
+}
+
+.pages-text h2 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: min(4vw, 4vh);
+    margin-top: auto;
+}
+
+/* About Section */
+/* 2024 Edition Section */
+#first-edition {
+    top: calc(50% - max(-1.4vh, -1.4vw));
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg) translate(min(35vh, 35vw)) rotate(0deg);
+}
+
+/* 2025 Edition Section */
+#second-edition {
+    top: calc(50% - max(-1.4vh, -1.4vw));
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(180deg) translate(min(35vh, 35vw)) rotate(-180deg);
+}
+
+/* Ticket Section */
+#ticket-page {
+    width: min(15vh, 15vw);
+    height: min(5vh, 5vw);
+    background-color: rgb(86, 1, 157);
+    text-align: center;
+    border-radius: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: min(25vh, 25vw);
+    cursor: pointer;
+}
+
+#ticket-page h2 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: min(2.4vh, 2.4vw);
+    margin: 0;
+    line-height: min(4.5vh, 4.5vw);
+    color: white;
+}
+
+/* Mobile Styles */
+@media (orientation: portrait) {
+    /* Main Page */
+    #main_text h1 {
+        font-size: min(30vh, 30vw);
+        margin-top: min(10vw, 10vh);
+    }
+    
+    /* Pages */
+    .pages {
+        width: min(25vh, 25vw);
+        height: min(25vh, 25vw);
+        background-position: center max(-4vh, -4vw);
+    }
+    
+    .pages-text h2 {
+        font-size: min(4.5vw, 4.5vh);
+    }
+    
+    /* About Section */
+    #about {
+        transform: translate(-50%, -50%) rotate(225deg) translate(min(40vh, 40vw)) rotate(-225deg);
+    }
+    
+    /* Speakers Section */
+    #speaker-page {
+        transform: translate(-50%, -50%) rotate(270deg) translate(min(50vh, 50vw)) rotate(-270deg);
+    }
+    
+    /* 2025 Edition Section */
+    #second-edition {
+        transform: translate(-50%, -50%) rotate(315deg) translate(min(40vh, 40vw)) rotate(-315deg);
+    }
+    
+    /* Venue Section */
+    #venue {
+        transform: translate(-50%, -50%) rotate(45deg) translate(min(40vh, 40vw)) rotate(-45deg);
+    }
+    
+    /* Team Section */
+    #team-page {
+        transform: translate(-50%, -50%) rotate(90deg) translate(min(50vh, 50vw)) rotate(-90deg);
+    }
+    
+    /* 2024 Edition Section */
+    #first-edition {
+        transform: translate(-50%, -50%) rotate(135deg) translate(min(40vh, 40vw)) rotate(-135deg);
+    }
+    
+    /* Ticket Section */
+    #ticket-page {
+        width: min(25vh, 25vw);
+        height: min(10vh, 10vw);
+        margin-top: min(35vh, 35vw);
+    }
+    
+    #ticket-page h2 {
+        font-size: min(4vh, 4vw);
+        line-height: min(9vh, 9vw);
+    }
+    
+    @media (min-aspect-ratio: 0.6) {   
+        .pages {
+            width: min(23vh, 23vw);
+            height: min(23vh, 23vw);
+            background-image: url('images/cloud.svg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center max(-4vh, -4vw);
+            text-align: center;
+            padding: min(2vh, 2vw);
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+        }
+    }
+}
