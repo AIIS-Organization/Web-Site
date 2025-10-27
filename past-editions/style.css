@@ -117,33 +117,14 @@
     }
     
     /* About Section */
-    #about {
-        transform: translate(-50%, -50%) rotate(225deg) translate(min(40vh, 40vw)) rotate(-225deg);
-    }
-    
-    /* Speakers Section */
-    #speaker-page {
-        transform: translate(-50%, -50%) rotate(270deg) translate(min(50vh, 50vw)) rotate(-270deg);
+    /* 2024 Edition Section */
+    #first-edition {
+        transform: translate(-50%, -50%) rotate(90deg) translate(min(35vh, 35vw)) rotate(-90deg);
     }
     
     /* 2025 Edition Section */
     #second-edition {
-        transform: translate(-50%, -50%) rotate(315deg) translate(min(40vh, 40vw)) rotate(-315deg);
-    }
-    
-    /* Venue Section */
-    #venue {
-        transform: translate(-50%, -50%) rotate(45deg) translate(min(40vh, 40vw)) rotate(-45deg);
-    }
-    
-    /* Team Section */
-    #team-page {
-        transform: translate(-50%, -50%) rotate(90deg) translate(min(50vh, 50vw)) rotate(-90deg);
-    }
-    
-    /* 2024 Edition Section */
-    #first-edition {
-        transform: translate(-50%, -50%) rotate(135deg) translate(min(40vh, 40vw)) rotate(-135deg);
+        transform: translate(-50%, -50%) rotate(270deg) translate(min(35vh, 35vw)) rotate(-270deg);
     }
     
     /* Ticket Section */

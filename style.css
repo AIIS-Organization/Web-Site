@@ -154,7 +154,7 @@
     }
     
     /* 2025 Edition Section */
-    #second-edition {
+    #schedule {
         transform: translate(-50%, -50%) rotate(315deg) translate(min(40vh, 40vw)) rotate(-315deg);
     }
     
@@ -169,7 +169,7 @@
     }
     
     /* 2024 Edition Section */
-    #first-edition {
+    #past-editions {
         transform: translate(-50%, -50%) rotate(135deg) translate(min(40vh, 40vw)) rotate(-135deg);
     }
     
