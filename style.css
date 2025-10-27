@@ -73,8 +73,8 @@
     transform: translate(-50%, -50%) rotate(300deg) translate(min(35vh, 35vw)) rotate(-300deg);
 }
 
-/* Schedule Section */
-#schedule {
+/* 2025 Edition Section */
+#second-edition {
     top: calc(50% - max(-1.4vh, -1.4vw));
     left: 50%;
     transform: translate(-50%, -50%) rotate(0deg) translate(min(35vh, 35vw)) rotate(0deg);
@@ -94,8 +94,8 @@
     transform: translate(-50%, -50%) rotate(120deg) translate(min(35vh, 35vw)) rotate(-120deg);
 }
 
-/* Previous Edition Section */
-#previous-edition {
+/* 2024 Edition Section */
+#first-edition {
     top: calc(50% - max(-1.4vh, -1.4vw));
     left: 50%;
     transform: translate(-50%, -50%) rotate(180deg) translate(min(35vh, 35vw)) rotate(-180deg);
@@ -153,8 +153,8 @@
         transform: translate(-50%, -50%) rotate(270deg) translate(min(50vh, 50vw)) rotate(-270deg);
     }
     
-    /* Schedule Section */
-    #schedule {
+    /* 2025 Edition Section */
+    #second-edition {
         transform: translate(-50%, -50%) rotate(315deg) translate(min(40vh, 40vw)) rotate(-315deg);
     }
     
@@ -168,8 +168,8 @@
         transform: translate(-50%, -50%) rotate(90deg) translate(min(50vh, 50vw)) rotate(-90deg);
     }
     
-    /* Previous Edition Section */
-    #previous-edition {
+    /* 2024 Edition Section */
+    #first-edition {
         transform: translate(-50%, -50%) rotate(135deg) translate(min(40vh, 40vw)) rotate(-135deg);
     }
     
